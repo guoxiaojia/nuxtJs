@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+       http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+>
+<url>
+ <loc>http://www.ikudou.com</loc>
+ <priority>0.5</priority>
+ <lastmod>2019-09-20</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+<url>
+ <loc>http://www.ikudou.com/</loc>
+ <priority>0.5</priority>
+ <lastmod>2019-09-20</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+<url>
+ <loc>http://www.ikudou.com/gamestrategy</loc>
+ <priority>0.5</priority>
+ <lastmod>2019-09-20</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+<url>
+ <loc>http://www.ikudou.com/user</loc>
+ <priority>0.5</priority>
+ <lastmod>2019-09-20</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+<url>
+ <loc>http://www.sooyooj.com/</loc>
+ <priority>0.5</priority>
+ <lastmod>2019-09-20</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+<url>
+ <loc>http://icp.chinaz.com/info?q=ikudou.com</loc>
+ <priority>0.5</priority>
+ <lastmod>2019-09-20</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+</urlset>

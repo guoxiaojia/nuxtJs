@@ -1,0 +1,348 @@
+.activityDetail {
+  background: #FBFBFB;
+  padding-bottom: 24px;
+
+  .mainActivity {
+    width: 1220px;
+    margin: 0 auto;
+  }
+
+  .bread {
+    height: 76px;
+    line-height: 76px;
+    font-size: 20px;
+    color: #000;
+    font-weight: normal
+  }
+
+  .imgBoxs {
+    position: relative;
+
+    .imgIcon {
+      width: 100%;
+    }
+
+    ul {
+      width: 325px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      display: flex;
+      height: 75px;
+      align-items: center;
+      justify-content: center;
+
+      li {
+        display: inline-block;
+        padding: 0 10px;
+        border-radius: 2px;
+        letter-spacing: 2px;
+        margin: 7px 3px 0 3px;
+        color: #fff;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        color: #F63232;
+        font-size: 20px;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .activityContent {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    .activityLeft {
+      width: 890px;
+      padding-left: 15px;
+      box-sizing: border-box;
+      background: #fff;
+      border-radius: 4px;
+      border-shadow: 1px 1px 2px rgba(163, 162, 159, 0.4);
+      -webkit-box-shadow: 1px 1px 2px rgba(163, 162, 159, 0.4);
+
+      .typeGame {
+        padding-left: 11px;
+        padding-top: 35px;
+        margin-bottom: 40px;
+        display: flex;
+        position: relative;
+        align-items: center;
+
+        img {
+          width: 140px;
+          height: 140px;
+          margin-right: 20px;
+        }
+
+        .rightKu {
+          .subje {
+            color: #FF5151;
+            font-size: 28px;
+            font-weight: normal;
+          }
+
+          .table {
+            margin-right: 12px;
+            display: inline-block;
+            margin-top: 8px;
+            font-size: 12px;
+            color: #fff;
+            padding: 0 14px 0 8px;
+            height: 22px;
+            line-height: 22px;
+            background: url("http://images.sooyooj.com/20190625/ldR6pvGO6awlnwDX.png") no-repeat;
+            background-size: 100% 100%;
+          }
+
+          .btnGroud {
+            margin-top: 32px;
+            display: flex;
+
+            > div {
+              cursor: pointer;
+              text-align: center;
+              height: 36px;
+              line-height: 36px;
+              font-size: 16px;
+              color: #fff;
+              margin-right: 10px;
+              cursor: pointer;
+              width: 115px;
+              border-radius: 36px;
+            }
+
+            .tryBtn {
+              background: url("http://images.sooyooj.com/20190625/ThS0NGHTGOPqnyAe.png") no-repeat;
+              background-size: 100% 100%;
+            }
+
+            .finishBtn {
+              background: #329BF6;
+            }
+
+            .endBtn {
+              background: #D8D8D8;
+            }
+          }
+        }
+
+        .cancelBtn {
+          position: absolute;
+          top: 35px;
+          right: 10px;
+          width: 74px;
+          height: 27px;
+          line-height: 27px;
+          text-align: center;
+          border: 1px solid #F63232;
+          color: #F63232;
+          font-size: 12px;
+          border-radius: 27px;
+          cursor: pointer;
+        }
+      }
+
+      .informTitle {
+        display: flex;
+        align-items: center;
+
+        i {
+          display: block;
+          width: 4px;
+          height: 20px;
+          background: #FEAE09;
+          border-radius: 4px;
+          margin-right: 7px;
+        }
+
+        span {
+          color: #FEAE09;
+          font-size: 20px;
+        }
+      }
+
+      .tryPlay {
+        margin-top: 32px;
+        padding-bottom: 10px;
+        padding-left: 11px;
+
+        .list {
+          font-size: 14px;
+          color: #343434;
+          margin-bottom: 16px;
+        }
+
+        .dowtime {
+          span {
+            font-size: 36px;
+          }
+        }
+
+        .range {
+          span {
+            color: #FEAE09;
+          }
+        }
+
+        .numRed {
+          color: #F63232;
+
+          p {
+            padding-left: 75px;
+
+            span {
+              font-size: 36px
+            }
+          }
+        }
+      }
+
+      .textProduct {
+        padding-left: 11px;
+        padding-right: 11px;
+        font-size: 14px;
+        margin-top: 15px;
+        padding-bottom: 16px;
+      }
+
+    }
+
+    .activityRight {
+      .topCode {
+        width: 315px;
+        height: 268px;
+        background: #fff;
+        border-radius: 4px;
+        border-shadow: 1px 1px 2px rgba(163, 162, 159, 0.4);
+        -webkit-box-shadow: 1px 1px 2px rgba(163, 162, 159, 0.4);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .code {
+          width: 155px;
+          height: 155px;
+
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+
+        .textLine {
+          color: #FEA503;
+          text-decoration: underline;
+          font-size: 16px;
+          white-space: nowrap;
+          margin-top: 10px;
+        }
+      }
+
+      .botRanking {
+        margin-top: 15px;
+        width: 315px;
+        background: #fff;
+        border-radius: 4px;
+        border-shadow: 1px 1px 2px rgba(163, 162, 159, 0.4);
+        -webkit-box-shadow: 1px 1px 2px rgba(163, 162, 159, 0.4);
+
+        .titleBox {
+          display: flex;
+          align-items: center;
+          padding-left: 16px;
+          height: 52px;
+          border-bottom: 1px solid #E2E2E2;
+
+          img {
+            width: 24px;
+            margin-right: 10px;
+          }
+
+          span {
+            font-size: 18px;
+            color: #343434;
+          }
+        }
+
+        .contentBox {
+          ul {
+            li {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              text-align: center;
+              height: 40px;
+
+              > div {
+                height: 40px;
+                line-height: 40px;
+              }
+            }
+
+            li:nth-child(2n) {
+              background: #F7F8FB;
+            }
+
+            li div:nth-child(1) {
+              width: 63px;
+            }
+
+            li div:nth-child(2) {
+              flex: 1;
+            }
+
+            li div:nth-child(3) {
+              width: 90px;
+            }
+
+            .headerTab {
+              font-size: 16px;
+            }
+
+            .list {
+              font-size: 14px;
+            }
+
+            li:nth-child(2) {
+              .bgImg {
+                background: url("http://images.sooyooj.com/20190625/SuJfhwtS6a5FHWqI.png") no-repeat center 4px;
+                background-size: 25px 25px;
+                color: #fff;
+              }
+            }
+
+            li:nth-child(3) {
+              .bgImg {
+                background: url("http://images.sooyooj.com/20190625/pJtABOInyakHYE3t.png") no-repeat center 4px;
+                background-size: 25px 25px;
+                color: #fff;
+              }
+            }
+
+            li:nth-child(4) {
+              .bgImg {
+                background: url("http://images.sooyooj.com/20190625/pJtABOInyakHYE3t.png") no-repeat center 4px;
+                background-size: 25px 25px;
+                color: #fff;
+              }
+            }
+
+          }
+
+          .tips {
+            color: #BFBFBF;
+            font-size: 12px;
+            padding-top: 4px;
+            padding-bottom: 19px;
+            padding-left: 20px;
+          }
+        }
+
+      }
+    }
+  }
+}

@@ -1,0 +1,258 @@
+.kudouUser {
+  background: #FBFBFB;
+
+  .bannerUser {
+    height: 268px;
+    background: linear-gradient(to bottom, #FFDC60 0%, #FEB00D 100%);
+    background: -webkit-linear-gradient(to bottom, #FFDC60 0%, #FEB00D 100%);
+  }
+
+  .mainKudou {
+    width: 1220px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+    .imgIcon {
+      margin-right: 30px;
+      border: 9px solid rgba(254, 225, 136, 0.6);
+      border-radius: 50%;
+
+      img {
+        border-radius: 50%;
+        width: 157px;
+        height: 157px;
+      }
+    }
+  }
+
+  .rightText {
+    width: 671px;
+    padding-top: 49px;
+    color: #fff;
+
+    .titleVip {
+      height: 54px;
+      line-height: 54px;
+      font-size: 24px;
+      border-bottom: 1px dashed #fff;
+    }
+
+    .moneyBox {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 15px;
+
+      .leftSum {
+        width: 347px;
+        border-right: 1px dashed #fff;
+
+      }
+
+      .qian {
+        font-size: 18px;
+        height: 50px;
+        line-height: 50px;
+      }
+
+      .shuzi {
+        font-size: 30px;
+        margin-right: 4px;
+      }
+
+      .danwei {
+        margin-right: 10px;
+      }
+
+      .boxKu {
+        display: flex;
+        align-items: center;
+        padding-bottom: 39px;
+      }
+
+      .bottomKu {
+        display: flex;
+
+        img {
+          width: 20px;
+          height: 20px;
+          margin-right: 3px;
+        }
+
+        .btnGetMoney {
+          cursor: pointer;
+          font-size: 12px;
+          margin-left: 15px;
+          color: #F8AC0E;
+          height: 24px;
+          line-height: 24px;
+          text-align: center;
+          width: 52px;
+          border-radius: 24px;
+          background: #373131;
+        }
+      }
+    }
+  }
+}
+
+.wrapContent {
+  padding-top: 20px;
+
+  .mainContent {
+    position: relative;
+    margin: 0 auto;
+    width: 1220px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .manuLists {
+    margin-right: 15px;
+    background: #fff;
+
+    .list {
+      height: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #E0E0E0;
+      width: 202px;
+      cursor: pointer;
+
+      span {
+        font-size: 16px;
+      }
+
+      i {
+        display: block;
+        width: 18px;
+        height: 20px;
+        background-size: 100% 100%;
+        margin-right: 7px;
+      }
+
+      .geRen {
+        background-image: url("http://images.sooyooj.com/20190624/qSvzyA0WIlmZnnAp.png");
+      }
+
+      .dinDan {
+        background-image: url("http://images.sooyooj.com/20190624/FzSsQuGqCNzbKauP.png");
+      }
+
+      .zhican {
+        background-image: url("http://images.sooyooj.com/20190624/pj6t5Uj4TimQxOFE.png")
+      }
+
+      &:hover {
+        background: #FFFBF3;
+        color: #FEA503;
+
+        .geRen {
+          background-image: url("http://images.sooyooj.com/20190624/FVLptfJbiYolULSu.png");
+        }
+
+        .dinDan {
+          background-image: url("http://images.sooyooj.com/20190624/Gha9E3nHkevfQ4Mx.png");
+        }
+
+        .zhican {
+          background-image: url("http://images.sooyooj.com/20190624/Oa25Nvfwxm2Xhkiw.png");
+        }
+      }
+    }
+
+    .activty {
+      background: #FFFBF3;
+      color: #FEA503;
+
+      .geRen {
+        background-image: url("http://images.sooyooj.com/20190624/FVLptfJbiYolULSu.png");
+      }
+
+      .dinDan {
+        background-image: url("http://images.sooyooj.com/20190624/Gha9E3nHkevfQ4Mx.png");
+      }
+
+      .zhican {
+        background-image: url("http://images.sooyooj.com/20190624/Oa25Nvfwxm2Xhkiw.png");
+      }
+    }
+
+
+  }
+
+  .compBox {
+    flex: 1
+  }
+}
+
+.toots {
+  width: 70px;
+  position: absolute;
+  top: 100px;
+  right: -84px;
+  transition: all .2s ease;
+
+  .img {
+    width: 66px;
+    height: 66px;
+    margin-bottom: 11px;
+    cursor: pointer;
+    border-radius: 50%;
+    background: #fff;
+    position: relative;
+    border: 1px solid #f5f5f5;
+    box-shadow: 1px 2px 4px 1px rgba(41, 41, 41, 0.4);
+
+    i {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      color: #FEA503;
+      display: block;
+    }
+
+    i.kefu {
+      width: 36px;
+      height: 40px;
+      background: url("http://images.sooyooj.com/20190816/k4U5OggLmVc4JOhl.png") no-repeat center center;
+      background-size: 100% 100%;
+    }
+
+    i.jiantou {
+      width: 42px;
+      height: 45px;
+      background: url("http://images.sooyooj.com/20190816/udL0i3894EyYLWne.png") no-repeat center center;
+      background-size: 100% 100%;
+    }
+
+    span {
+      display: block;
+      width: 32px;
+      font-size: 16px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translateX(-50%) translateY(-50%);
+    }
+  }
+
+  .img.active {
+    background: #FEA503;
+    color: #fff;
+  }
+
+  .img:first-child {
+    i {
+      font-size: 36px;
+    }
+  }
+
+  .img:nth-of-type(2) {
+    i {
+      font-size: 42px;
+    }
+  }
+}
